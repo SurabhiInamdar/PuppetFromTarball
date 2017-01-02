@@ -1,0 +1,81 @@
+yum installed git
+yum list installed git
+yum -y -e 0 -d 0 install gcc-c++ patch readline readline-devel zlib zlib-devel
+yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel
+yum -y -e 0 -d 0 install libyaml-devel libffi-devel openssl-devel make
+yum list installed libyaml-devel libffi-devel openssl-devel make
+yum -y -e 0 -d 0 install bzip2 autoconf automake libtool bison iconv-devel
+yum list installed bzip2 autoconf automake libtool bison iconv-devel
+yum install iconv-devel
+yum provides */iconv*
+yum provides */iconv-devel
+sudo curl -L get.rvm.io >> rvm_installer.sh
+chmod a+x rvm_installer.sh
+ls
+pwd
+./rvm_installer.sh
+source /etc/profile.d/rvm.sh
+rvm install 2.3.1
+yum install java-1.8.0-openjdk-devel libselinux-ruby gcc
+wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+curl -i  https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein >> lein
+ls
+chmod a+x lein
+cp /bin/lein
+cp lein /bin/lein
+ls -lrt /bin/lein
+lein
+yum -y install wget
+rm -f lein 
+ls
+exit
+gem install json_pure
+gem install rake
+gem install openssl
+gem install bundler
+pip install paramiko
+which python
+yum update python
+yum install python
+yum install pip
+easy_install pip
+pip update
+pip --help
+pip install paramiko
+gcc
+pip install PyYAML Jinja2 httplib2 siz
+pip install PyYAML Jinja2 httplib2 six
+exit
+gem --help
+gem list --local
+cd ..
+exit
+hostname
+vi /etc/hosts
+puppet master --verbose --no-daemonize
+puppet cert list --all
+puppet cert sign 'puppetagent.c.iacschool-152306.internal'
+puppet cert list --all
+exit
+puppet cert list --all
+hostname
+puppet master --verbose --no-daemonize
+cd /etc/puppetlabs/code/environments/production/manifests/
+ls
+touch site.pp
+vi site.pp 
+vi site.pp 
+ls
+pwd
+puppet master --verbose --no-daemonize
+vi site.pp 
+cd /tmp
+ls
+vi pupinstall.sh 
+vi pupinstall.sh 
+vi pupinstall.sh 
+history
+git init
+git status
+vim ~/history.txt
+history -w ~/history.txt
