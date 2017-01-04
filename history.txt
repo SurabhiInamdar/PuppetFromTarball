@@ -1,81 +1,679 @@
-yum installed git
-yum list installed git
-yum -y -e 0 -d 0 install gcc-c++ patch readline readline-devel zlib zlib-devel
-yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel
-yum -y -e 0 -d 0 install libyaml-devel libffi-devel openssl-devel make
-yum list installed libyaml-devel libffi-devel openssl-devel make
-yum -y -e 0 -d 0 install bzip2 autoconf automake libtool bison iconv-devel
-yum list installed bzip2 autoconf automake libtool bison iconv-devel
-yum install iconv-devel
-yum provides */iconv*
-yum provides */iconv-devel
-sudo curl -L get.rvm.io >> rvm_installer.sh
-chmod a+x rvm_installer.sh
-ls
-pwd
-./rvm_installer.sh
-source /etc/profile.d/rvm.sh
-rvm install 2.3.1
-yum install java-1.8.0-openjdk-devel libselinux-ruby gcc
-wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
-curl -i  https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein >> lein
-ls
-chmod a+x lein
-cp /bin/lein
-cp lein /bin/lein
-ls -lrt /bin/lein
-lein
-yum -y install wget
-rm -f lein 
-ls
-exit
-gem install json_pure
-gem install rake
-gem install openssl
-gem install bundler
-pip install paramiko
-which python
-yum update python
-yum install python
-yum install pip
-easy_install pip
-pip update
-pip --help
-pip install paramiko
-gcc
-pip install PyYAML Jinja2 httplib2 siz
-pip install PyYAML Jinja2 httplib2 six
-exit
-gem --help
-gem list --local
-cd ..
-exit
-hostname
-vi /etc/hosts
-puppet master --verbose --no-daemonize
-puppet cert list --all
-puppet cert sign 'puppetagent.c.iacschool-152306.internal'
-puppet cert list --all
-exit
-puppet cert list --all
-hostname
-puppet master --verbose --no-daemonize
-cd /etc/puppetlabs/code/environments/production/manifests/
-ls
-touch site.pp
-vi site.pp 
-vi site.pp 
-ls
-pwd
-puppet master --verbose --no-daemonize
-vi site.pp 
-cd /tmp
-ls
-vi pupinstall.sh 
-vi pupinstall.sh 
-vi pupinstall.sh 
-history
-git init
-git status
-vim ~/history.txt
-history -w ~/history.txt
+    1  yum installed git
+    2  yum list installed git
+    3  yum -y -e 0 -d 0 install gcc-c++ patch readline readline-devel zlib zlib-devel
+    4  yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel
+    5  yum -y -e 0 -d 0 install libyaml-devel libffi-devel openssl-devel make
+    6  yum list installed libyaml-devel libffi-devel openssl-devel make
+    7  yum -y -e 0 -d 0 install bzip2 autoconf automake libtool bison iconv-devel
+    8  yum list installed bzip2 autoconf automake libtool bison iconv-devel
+    9  yum install iconv-devel
+   10  yum provides */iconv*
+   11  yum provides */iconv-devel
+   12  sudo curl -L get.rvm.io >> rvm_installer.sh
+   13  chmod a+x rvm_installer.sh
+   14  ls
+   15  pwd
+   16  ./rvm_installer.sh
+   17  source /etc/profile.d/rvm.sh
+   18  rvm install 2.3.1
+   19  yum install java-1.8.0-openjdk-devel libselinux-ruby gcc
+   20  wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+   21  curl -i  https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein >> lein
+   22  ls
+   23  chmod a+x lein
+   24  cp /bin/lein
+   25  cp lein /bin/lein
+   26  ls -lrt /bin/lein
+   27  lein
+   28  yum -y install wget
+   29  rm -f lein 
+   30  ls
+   31  exit
+   32  gem install json_pure
+   33  gem install rake
+   34  gem install openssl
+   35  gem install bundler
+   36  pip install paramiko
+   37  which python
+   38  yum update python
+   39  yum install python
+   40  yum install pip
+   41  easy_install pip
+   42  pip update
+   43  pip --help
+   44  pip install paramiko
+   45  gcc
+   46  pip install PyYAML Jinja2 httplib2 siz
+   47  pip install PyYAML Jinja2 httplib2 six
+   48  exit
+   49  gem --help
+   50  gem list --local
+   51  cd ..
+   52  exit
+   53  hostname
+   54  vi /etc/hosts
+   55  puppet master --verbose --no-daemonize
+   56  puppet cert list --all
+   57  puppet cert sign 'puppetagent.c.iacschool-152306.internal'
+   58  puppet cert list --all
+   59  exit
+   60  ./pupinstall.sh 
+   61  puppet config print manifest --section master --environment production
+   62  mkdir /etc/puppetlabs/code/environments/production/manifests
+   63  mkdir -p /etc/puppetlabs/code/environments/production/manifests
+   64  puppet config print manifest --section master --environment production
+   65  vi /etc/puppetlabs/puppet/puppet.conf 
+   66  hostname -f
+   67  ls
+   68  vi pupinstall.sh 
+   69  puppet master --no-daemonize --verbose
+   70  puppet master --no-daemonize --verbose
+   71  puppet master --no-daemonize --verbose
+   72  history
+   73  who
+   74  ssh puppetagent
+   75  ssh puppetagent
+   76  exit
+   77  puppet cert list --all
+   78  hostname
+   79  puppet master --verbose --no-daemonize
+   80  cd /etc/puppetlabs/code/environments/production/manifests/
+   81  ls
+   82  touch site.pp
+   83  vi site.pp 
+   84  vi site.pp 
+   85  ls
+   86  pwd
+   87  puppet master --verbose --no-daemonize
+   88  vi site.pp 
+   89  cd /tmp
+   90  ls
+   91  vi pupinstall.sh 
+   92  vi pupinstall.sh 
+   93  vi pupinstall.sh 
+   94  history
+   95  git init
+   96  git status
+   97  vim ~/history.txt
+   98  history -w ~/history.txt
+   99  vim ~/history.txt
+  100  git status
+  101  cd /tmp/.git/
+  102  ls
+  103  cd hooks
+  104  ls
+  105  cd ..
+  106  cd objects/
+  107  ls
+  108  cd pack/
+  109  ls
+  110  cd ..
+  111  cd ..
+  112  cd /tmp
+  113  ls
+  114  mv ~/history.txt /tmp
+  115  ls
+  116  git status
+  117  git add history.txt 
+  118  git config --global user.email "inamdar.surabhi01@gmail.com"
+  119  git config --global username "SurabhiInamdar"
+  120  git config --global user.name "SurabhiInamdar"
+  121  git clone https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  122  git push -u origin master
+  123  git remote add origin https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  124  git remote -v
+  125  git commit -m "2JANwala"
+  126  git push -u origin master
+  127  git pull -u origin master
+  128  git push -u origin master
+  129  cd /opt/puppetlabs/puppet/cache/facts.d
+  130  ls
+  131  cd /etc/puppetlabs/code/environments/production/manifests/
+  132  vi site.pp 
+  133  vi site.pp 
+  134  ls
+  135  vi site.pp 
+  136  vi site.pp 
+  137  vi site.pp 
+  138  vi site.pp 
+  139  puppet module search httpd
+  140  puppet module install puppetlabs-apache
+  141  cd /etc/puppetlabs/code/environments/production/modules
+  142  ls
+  143  cd apache/
+  144  ls
+  145  cd manifests/
+  146  ls
+  147  vi init.pp 
+  148  cd ..
+  149  cd ..
+  150  cd concat/
+  151  ls
+  152  cd manifests/
+  153  ls
+  154  vi init.pp 
+  155  cd ..
+  156  cd ..
+  157  cd ..
+  158  ls
+  159  rm -rf modules/
+  160  ls
+  161  cd manifests/
+  162  ls
+  163  vi site.pp 
+  164  vi site.pp 
+  165  vi site.pp 
+  166  vi site.pp 
+  167  vi site.pp 
+  168  vi site.pp 
+  169  cd /tmp/test2
+  170  cd /tmp/test1
+  171  vi site.pp 
+  172  vi site.pp 
+  173  vi site.pp 
+  174  vi site.pp 
+  175  pwd
+  176  cd /tmp
+  177  mkdir www
+  178  cd www
+  179  mkdir itzgeek
+  180  cd /etc/puppetlabs/code/environments/production/manifests
+  181  ls
+  182  vi site.pp 
+  183  vi site.pp 
+  184  vi site.pp 
+  185  vi site.pp 
+  186  vi site.pp 
+  187  vi site.pp 
+  188  vi site.pp 
+  189  vi site.pp 
+  190  vi site.pp 
+  191  vi site.pp 
+  192  vi site.pp 
+  193  vi site.pp 
+  194  vi site.pp 
+  195  git status
+  196  cd /tmp
+  197  git status
+  198  mkdir manifest
+  199  ls
+  200  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp/manifest/site.pp
+  201  cp -r /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp/manifest/site.pp
+  202  git status
+  203  ls
+  204  cd manifest/
+  205  ls
+  206  vi site.pp 
+  207  cd /tmp/
+  208  git add manifest/
+  209  git commit -m "DeployingHttpd"
+  210  git push -u origin master
+  211  cd /etc/puppetlabs/code/environments/production/manifests/
+  212  ls
+  213  vi site.pp 
+  214  vi site.pp 
+  215  vi site.pp 
+  216  vi site.pp 
+  217  vi site.pp 
+  218  vi site.pp 
+  219  vi site.pp 
+  220  vi site.pp 
+  221  cd /etc/chef
+  222  cd /home
+  223  cd /etc/puppetlabs/code/environments/production/
+  224  ls
+  225  cd manifests/
+  226  ls
+  227  pwd
+  228  cd /tmp
+  229  git init
+  230  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp/.git/
+  231  git status
+  232  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp/.git/site.pp
+  233  git status
+  234  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /home/inamdar_surabhi01/
+  235  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /home/inamdar_surabhi01/site.pp
+  236  cd /home/inamdar_surabhi01/
+  237  ls
+  238  /tmp
+  239  cd /tmp
+  240  ls
+  241  touch site.pp
+  242  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp/site.pp
+  243  ls
+  244  git status
+  245  git add site.pp
+  246  git remote -v
+  247  git push -u origin master
+  248  git pull https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  249  git commit -m "site.pp(Basic)"
+  250  git push -u origin master
+  251  cd /etc/puppetlabs/code/environments/production/manifests/
+  252  vi site.pp 
+  253  puppet master --verbose --no-daemonize
+  254  vi site.pp 
+  255  puppet master --verbose --no-daemonize
+  256  cd /tmp
+  257  ls
+  258  git add pupinstall.sh 
+  259  git commit -m "PuppetInstallScript"
+  260  git push -u origin master
+  261  cd /etc/puppetlabs/code/environments/production/manifests/
+  262  ls
+  263  vi site.pp 
+  264  vi site.pp 
+  265  git status
+  266  cd /
+  267  git status
+  268  cd /etc/puppetlabs/code/environments/production/manifests/
+  269  cd /etc
+  270  git init
+  271  ls
+  272  ls -a
+  273  cd .git
+  274  ls
+  275  ls -a
+  276  cd objects/
+  277  ls
+  278  cd ..
+  279  git status
+  280  cd ..
+  281  git status
+  282  cd /etc/puppetlabs/code/environments/production/manifests/
+  283  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /etc/.git
+  284  cp /etc/puppetlabs/code/environments/production/manifests /etc/.git/manifest
+  285  cd /etc/
+  286  mkdir manifest
+  287  cp /etc/puppetlabs/code/environments/production/manifests /etc/.git/manifest
+  288  cd /tmp
+  289  ls
+  290  cd ..
+  291  cd /tmp
+  292  git status
+  293  cp /etc/puppetlabs/code/environments/production/manifests /tmp/manifest/
+  294  cp /etc/puppetlabs/code/environments/production/manifests /tmp/manifest/
+  295  cd manifest/
+  296  ls
+  297  vi site.pp 
+  298  cp /etc/puppetlabs/code/environments/production/manifests /tmp
+  299  cp -r/etc/puppetlabs/code/environments/production/manifests /tmp
+  300  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp
+  301  cp /etc/puppetlabs/code/environments/production/manifests/site.pp /tmp/manifest/site.pp 
+  302  ls
+  303  vi site.pp 
+  304  cd ..
+  305  ls
+  306  git st
+  307  git status
+  308  git add manifest
+  309  git commit -m "ChangesToWebpage"
+  310  git push -u origin master
+  311  LS
+  312  ls
+  313  cd manifest/
+  314  ls
+  315  vi site.pp 
+  316  git add manifest
+  317  cd ..
+  318  git status
+  319  git add manifest
+  320  git push -u origin master
+  321  vi site.pp 
+  322  cd manifest/
+  323  vi site.pp 
+  324  cd ..
+  325  git add manifest
+  326  git push -u origin master
+  327  git add manifest/
+  328  git commit -b "WebPage"
+  329  git commit -v "WebPage"
+  330  git push -u origin master
+  331  ls
+  332  vi README.md 
+  333  cd PuppetFromTarball/
+  334  ls
+  335  vi history.log 
+  336  cd ..
+  337  ls -a
+  338  cd .git
+  339  ls
+  340  vi site.pp 
+  341  vi description 
+  342  cd /etc/puppetlabs/code/environments/production/manifests/
+  343  ls
+  344  vi site.pp 
+  345  cd ..
+  346  mkdir module
+  347  ls
+  348  cd module/
+  349  ls
+  350  mkdir httpd
+  351  ls
+  352  cd httpd/
+  353  mkdir {manifests,templates,files,examples}
+  354  ls
+  355  cd manifests/
+  356  ls
+  357  touch init.pp
+  358  vi init.pp 
+  359  cd ..
+  360  cd ..
+  361  mkdir httpd_webpage
+  362  ls
+  363  cp /etc/puppetlabs/code/environments/production/module/httpd/manifests/ /etc/puppetlabs/code/environments/production/module/httpd_webpage/manifests
+  364  ls
+  365  cd httpd_webpage/
+  366  ls
+  367  cd ..
+  368  cd httpd
+  369  cp /etc/puppetlabs/code/environments/production/module/httpd/manifests/ /etc/puppetlabs/code/environments/production/module/httpd_web/manifests
+  370  cd ..
+  371  cd httpd_webpage/
+  372  ls
+  373  mkdir {manifests,templates,files,examples}
+  374  ls
+  375  cd ..
+  376  cd httpd
+  377  cp /etc/puppetlabs/code/environments/production/module/httpd/manifests/ /etc/puppetlabs/code/environments/production/module/httpd_web/manifests
+  378  cp /etc/puppetlabs/code/environments/production/module/httpd/manifests/ /etc/puppetlabs/code/environments/production/module/httpd_web/manifests
+  379  cd ..
+  380  cd httpd_webpage/
+  381  ls
+  382  cd manifests/
+  383  ls
+  384  cd ..
+  385  cd ..
+  386  rm -rf httpd
+  387  ls
+  388  cd httpd_webpage/
+  389  ls
+  390  cd manifests/
+  391  touch init.pp
+  392  ls
+  393  vi init.pp 
+  394  vi init.pp 
+  395  cd ..
+  396  cd ..
+  397  cd ..
+  398  ls
+  399  cd manifests/
+  400  ls
+  401  vi site.pp 
+  402  cd ..
+  403  cd module/
+  404  ls
+  405  cd httpd_webpage/
+  406  ls
+  407  cd manifests/
+  408  ls
+  409  vi init.pp 
+  410  cd ..
+  411  cd ..
+  412  cd ..
+  413  ls
+  414  pwd
+  415  cd ..
+  416  cp /etc/puppetlabs/code/environments/production /tmp/
+  417  cd /tmp
+  418  ls
+  419  mkdir production
+  420  ls
+  421  cp /etc/puppetlabs/code/environments/production /tmp/production/
+  422  ls
+  423  cd production/
+  424  ls
+  425  cd ..
+  426  cp /etc/puppetlabs/code/environments/production /tmp/production/
+  427  cp /etc/puppetlabs/code/environments/production /tmp
+  428  ls
+  429  cd production/
+  430  ls
+  431  cp /etc/puppetlabs/code/environments/production /tmp/production
+  432  ls
+  433  cp -r /etc/puppetlabs/code/environments/production /tmp/production
+  434  ls
+  435  cd ..
+  436  cp -r /etc/puppetlabs/code/environments/production /tmp/production
+  437  ls
+  438  cd p
+  439  cd production/
+  440  ls
+  441  cd production/
+  442  ls
+  443  cd ..
+  444  cd ..
+  445  ls
+  446  cd production/
+  447  mv /tmp/production/production/ /tmp
+  448  ls
+  449  cd ..
+  450  ls
+  451  cd production/
+  452  ls
+  453  mv /tmp/production/production/ /tmp/manifest/
+  454  ls
+  455  cd ..
+  456  ls
+  457  rm -rf production/
+  458  ls
+  459  cd manifest/
+  460  ls
+  461  cd /tmp
+  462  ls
+  463  git status
+  464  git add manifest
+  465  git commit -m "UsingModuleApproach"
+  466  git push -u origin master
+  467  cd /etc/puppetlabs/code/environments/production/
+  468  ls
+  469  cd module/
+  470  ls
+  471  cd httpd_webpage/
+  472  ls
+  473  cd manifests/
+  474  ls
+  475  vi init.pp 
+  476  cd ..
+  477  cd ..
+  478  puppet config print manifest --section master --environment production
+  479  puppet config print module --section master --environment production
+  480  puppet config print module --section master --environment production
+  481  puppet config print manifest --section master --environment production
+  482  cd ..
+  483  puppet config print module --section master --environment production
+  484  puppet config print module 
+  485  puppet config print report reports --section user
+  486  pwd
+  487  cd /etc/puppetlabs/
+  488  ls
+  489  cd puppet/
+  490  ls
+  491  mkdir module
+  492  ls
+  493  cp -r /etc/puppetlabs/code/environments/production/module/ /etc/puppetlabs/puppet/
+  494  ls
+  495  cd module/
+  496  ls
+  497  cd /etc/puppetlabs/code/environments/production
+  498  ls
+  499  cd manifests/
+  500  ls
+  501  vi site.pp 
+  502  rm -rf module
+  503  ls
+  504  cp /etc/puppetlabs/code/environments/production /tmp/manifest/
+  505  cp /etc/puppetlabs/code/environments/production /tmp/manifest/production/
+  506  cp -r /etc/puppetlabs/code/environments/production /tmp/manifest/production/
+  507  cd /tmp/manifest/production/
+  508  ls
+  509  cd manifests/
+  510  cd ..
+  511  ls
+  512  rm -rf production/
+  513  ls
+  514  cp -r /etc/puppetlabs/code/environments/production /tmp/manifest
+  515  ls
+  516  cd /tmp/manifest/
+  517  ls
+  518  cd production/
+  519  cd ..
+  520  git add manifest
+  521  git add manifests
+  522  cd ..
+  523  ls
+  524  git status
+  525  git add manifest
+  526  git commit -m "Didn'tWork"
+  527  git push -u origin master
+  528  git push -u origin master
+  529  cd /etc/puppetlabs/code/environments/production/
+  530  ls
+  531  cd module/
+  532  ls
+  533  pwd 
+  534  mv /etc/puppetlabs/code/environments/production/module/httpd_webpage/ /etc/puppetlabs/code/environments/production
+  535  ls
+  536  cd ..
+  537  ls
+  538  cd manifests/
+  539  ls
+  540  vi site.pp 
+  541  cd ..
+  542  ls
+  543  cd httpd_webpage/
+  544  ls
+  545  cd manifests/
+  546  ls
+  547  vi init.pp 
+  548  cd ..
+  549  cd ..
+  550  ls
+  551  cd manifests/
+  552  ls
+  553  vi site.pp 
+  554  vi site.pp 
+  555  vi site.pp 
+  556  vi site.pp 
+  557  touch node.pp
+  558  ls
+  559  vi node.pp 
+  560  vi site.pp 
+  561  vi node.pp 
+  562  vi site.pp 
+  563  mkdir module
+  564  ls
+  565  rm -rf node.pp
+  566  ls
+  567  cd module/
+  568  ls
+  569  mkdir manifests
+  570  ls
+  571  cd manifests/
+  572  cd ..
+  573  ls
+  574  rm -rf manifests/
+  575  ls
+  576  mkdir httpd_webpage
+  577  ls
+  578  cd httpd_webpage/
+  579  mkdir manifests
+  580  ls
+  581  cd manifests/
+  582  touch init.pp
+  583  vi init.pp 
+  584  vi init.pp 
+  585  cd ..
+  586  cd ..
+  587  ls
+  588  cd ..
+  589  ls
+  590  vi site.pp 
+  591  vi site.pp 
+  592  vi site.pp 
+  593  cd module/
+  594  ls
+  595  vi httpd_webpage/
+  596  cd httpd_webpage/
+  597  ls
+  598  vi manifests/
+  599  ls
+  600  cd manifests/
+  601  ls
+  602  vi init.pp 
+  603  pwd
+  604  cd /tmp
+  605  ls
+  606  cp /etc/puppetlabs/code/environments/production/ /tmp/manifest/
+  607  cp -r /etc/puppetlabs/code/environments/production/ /tmp/manifest/
+  608  ls
+  609  cd manifest/
+  610  ls
+  611  cd production/
+  612  ls
+  613  cd module/
+  614  ls
+  615  cd ..
+  616  ls
+  617  cd ..
+  618  ls
+  619  vi site.pp 
+  620  cd /etc/puppetlabs/code/environments/production/manifests/module/httpd_webpage/manifests
+  621  ls
+  622  cd ..
+  623  cd ..
+  624  ls
+  625  cd ..
+  626  ls
+  627  cd ..
+  628  ls
+  629  rm -rf module/
+  630  ls
+  631  rm -rf httpd_webpage/
+  632  ls
+  633  cd manifests/
+  634  ls
+  635  cd /tmp
+  636  ls
+  637  cp /etc/puppetlabs/code/environments/production /tmp/manifest/
+  638  cp -r /etc/puppetlabs/code/environments/production /tmp/manifest/
+  639  ls
+  640  cd manifest/
+  641  ls
+  642  vi site.pp 
+  643  rm -rf site.pp 
+  644  ls
+  645  cd production/
+  646  ls
+  647  rm -rf module/
+  648  rm -rf httpd_webpage/
+  649  ls
+  650  cd manifests/
+  651  ls
+  652  cd module/
+  653  ls
+  654  cd httpd_webpage/
+  655  ls
+  656  cd manifests/
+  657  ls
+  658  vi init.pp 
+  659  cd ..
+  660  cd ..
+  661  cd ..
+  662  ls
+  663  vi site.pp 
+  664  git status
+  665  git add manifest
+  666  cd ..
+  667  git add manifests
+  668  git commit -m "ModuleWorks"
+  669  git push -u origin master
+  670  history -w ~/history.txt
+  671  mv ~/history.txt /tmp
+  672  cd /tmp
+  673  ls
+  674  vi history.
+  675  vi history.txt 
+  676  vi history.txt 
+  677  history -w /tmp/history.txt
+  678  history < /tmp/history.txt
+  679  history > /tmp/history.txt
