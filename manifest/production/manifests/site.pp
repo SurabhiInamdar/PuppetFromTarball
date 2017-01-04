@@ -16,8 +16,6 @@ node puppetagent {
         ensure => link,
         target => '/tmp/test1',
     }
-   include httpd_webpage
-
    notify {"I'm notifying u.":} # Whitespace is fungible, remember.
 }
 
