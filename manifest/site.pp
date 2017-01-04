@@ -26,7 +26,7 @@ node puppetagent {
 
   file {'/var/www/html/index.html': # Creating Index file
      ensure  => file,
-     content => " <body bgcolor=rgb(200,0,255)> <h1>L3 & L4 Shared Delivery Team!</h1><p>By Puppet </p> <i/body> ",
+     content => " <body bgcolor=rgb(200,0,255)> <h1>L3 & L4 Shared Delivery Team!</h1><p>By Puppet </p> </body> ",
 
      mode    => '0644',
    }   
@@ -35,6 +35,4 @@ node puppetagent {
       enable => true,
     }
    notify {"I'm notifying u.":} # Whitespace is fungible, remember.
-    notify {"I am surabhi":}
 }
-
