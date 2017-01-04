@@ -26,7 +26,8 @@ node puppetagent {
 
   file {'/var/www/html/index.html': # Creating Index file
      ensure  => file,
-     content => "L3 & L4 Shared Delivery Team",
+     content => " <body bgcolor=rgb(200,0,255)> <h1>L3 & L4 Shared Delivery Team!</h1><p>By Puppet </p> <i/body> ",
+
      mode    => '0644',
    }   
     service {'httpd':
