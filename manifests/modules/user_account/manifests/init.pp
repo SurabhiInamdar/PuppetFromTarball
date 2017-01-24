@@ -10,6 +10,6 @@ class user_account ($username = 'Ibbi'){
   $message = "hello world"
   file { '/tmp/user.txt':
     ensure  => file,
-    content  => "The message is: $message.\n The 'osfamily' fact's value is: $osfamily. \n",
+    content  => "The message for today is: $message.\n The 'osfamily' fact's value is: $osfamily. \n",
   }
 }
