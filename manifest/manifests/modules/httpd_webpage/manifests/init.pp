@@ -24,7 +24,7 @@ file_line { 'Append a line to /etc/httpd/conf/httpd1.conf':
   path => '/etc/httpd/conf/httpd1.conf',
   line => 'code 1....
 code 2....
-code 3....',
+',
 }
 
 
