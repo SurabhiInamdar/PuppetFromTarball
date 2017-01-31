@@ -1,0 +1,108 @@
+yum installed git
+yum list installed git
+yum -y -e 0 -d 0 install gcc-c++ patch readline readline-devel zlib zlib-devel
+yum list installed gcc-c++ patch readline readline-devel zlib zlib-devel
+yum -y -e 0 -d 0 install libyaml-devel libffi-devel openssl-devel make
+yum list installed libyaml-devel libffi-devel openssl-devel make
+yum -y -e 0 -d 0 install bzip2 autoconf automake libtool bison iconv-devel
+yum list installed bzip2 autoconf automake libtool bison iconv-devel
+yum install iconv-devel
+yum provides */iconv*
+yum provides */iconv-devel
+sudo curl -L get.rvm.io >> rvm_installer.sh
+chmod a+x rvm_installer.sh
+ls
+pwd
+./rvm_installer.sh
+source /etc/profile.d/rvm.sh
+rvm install 2.3.1
+yum install java-1.8.0-openjdk-devel libselinux-ruby gcc
+wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+curl -i  https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein >> lein
+ls
+chmod a+x lein
+cp /bin/lein
+cp lein /bin/lein
+ls -lrt /bin/lein
+lein
+yum -y install wget
+rm -f lein 
+ls
+exit
+gem install json_pure
+gem install rake
+gem install openssl
+gem install bundler
+pip install paramiko
+which python
+yum update python
+yum install python
+yum install pip
+easy_install pip
+pip update
+pip --help
+pip install paramiko
+gcc
+pip install PyYAML Jinja2 httplib2 siz
+pip install PyYAML Jinja2 httplib2 six
+exit
+gem --help
+gem list --local
+cd ..
+exit
+cd /tmp
+ls
+./pupinstall.sh 
+cd /etc/puppetlabs/puppet/
+ls
+vi puppet.conf 
+vi puppet.conf 
+cd /etc/puppetlabs/
+cd /etc/puppet
+puppet agent --server puppetmaster --verbose --no-daemonize --waitforcert 60
+puppet agent --server puppetmaster --verbose --no-daemonize --waitforcert 60
+puppet agent --test
+puppet agent --server puppetmaster --verbose --no-daemonize --waitforcert 60
+pwd
+cd /etc/puppetlabs/
+ls
+cd puppet/
+ls
+vi puppet.conf 
+puppet agent --server puppetmaster --verbose --no-daemonize --waitforcert 60
+puppet agent --verbose --no-daemonize --waitforcert 60
+puppet agent --verbose --no-daemonize --waitforcert 60 --test
+puppet agent --verbose --no-daemonize --waitforcert 60 --test
+puppet agent --verbose --no-daemonize --waitforcert 60 --test
+cd /tmp/test2
+ls
+cd ..
+cd ..
+vi /tmp/test1
+git init
+git status
+cd /etc
+git init
+git status
+history -w ~/history.txt
+ls
+git ststus
+git status
+mv /~history.txt /etc/.git/
+mv ~/history.txt /etc/.git/
+git add history.txt
+git status
+mv ~/history.txt /etc/.git/
+history -w /etc/history.txt
+git status
+git add history.txt
+git config --global user.email "inamdar.surabhi01@gmail.com"
+git config --global user.name "SurabhiInamdar"
+git clone https://github.com/SurabhiInamdar/PuppetFromTarball.git
+git remote add origin https://github.com/SurabhiInamdar/PuppetFromTarball.git
+git pull https://github.com/SurabhiInamdar/PuppetFromTarball.git
+git commit -m "Agent"
+git commit -m "Agent"
+git push -u origin master
+git remote -v
+history -w /etc/agentconfig.txt

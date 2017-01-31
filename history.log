@@ -1,0 +1,242 @@
+    1  sestatus 
+    2  exit
+    3  cd /usr/
+    4  ls
+    5  cd /usr/local
+    6  ls
+    7  mkdir puppet
+    8  cd /usr/local
+    9  LS
+   10  ls
+   11  cd /usr/local/puppet
+   12  ls
+   13  wget https://downloads.puppetlabs.com/puppet/puppetserver-2.7.1.tar.gz 
+   14  curl https://downloads.puppetlabs.com/puppet/puppetserver-2.7.1.tar.gz 
+   15  vi /ryc/hosts
+   16  vi /etc/hosts
+   17  hostname
+   18  sudo wget https://downloads.puppetlabs.com/puppet/puppet-4.8.0.tar.gz
+   19  sudo curl https://downloads.puppetlabs.com/puppet/puppet-4.8.0.tar.gz
+   20  ls -lrt
+   21  cd ..
+   22  ls
+   23  cd inamdar_surabhi01/
+   24  ls
+   25  ls -lrt
+   26  cd ..
+   27  cd elizajena76/
+   28  ls
+   29  ls -lrt
+   30  ls
+   31  cd ..
+   32  ls -lrt
+   33  ls -lrt ~/inamdar_surabhi01
+   34  ls -lrt /inamdar_surabhi01/
+   35  ls -lrt /inamdar_surabhi01
+   36  ls -lrt inamdar_surabhi01/
+   37  yum install ruby
+   38  yum install lsb_release
+   39  lsb_release
+   40  yum provides */lsb_releas
+   41  yum provides */lsb_release
+   42  yum install redhat-lsb-core
+   43  lsb_release
+   44  sudo gem install json_pure\
+   45  sudo gem install json_pure
+   46  ls
+   47  cd hemanth_damecharla/
+   48  mkdir puppet_install
+   49  cd puppet_install/
+   50  curl https://downloads.puppetlabs.com/puppet/puppetserver-2.7.0.tar.gz | tar xz
+   51  ls
+   52  cd puppetserver-2.7.0/
+   53  ls
+   54  cd ..
+   55  cd ..
+   56  ls
+   57  exit
+   58  mkdir PUPPET
+   59  ls
+   60  cd ..
+   61  cd ..
+   62  cd /ho,e/puppet
+   63  cd /home/puppet
+   64  ls
+   65  cp /home/puppet/Puppet /etc/PUPPET
+   66  clear
+   67  ls
+   68  cd ..
+   69  cd ..
+   70  cd ..ls
+   71  ls
+   72  cd home
+   73  ls
+   74  cd puppet
+   75  ls
+   76  cd Puppet
+   77  ls
+   78  cd ..
+   79  cd ..
+   80  cd ..
+   81  cd ..
+   82  cd /etc
+   83  ls
+   84  cd PUPPET
+   85  ls
+   86  cd ..
+   87  cd ..
+   88  cp /home/puppet/Puppet /etc/PUPPET
+   89  cp Puppet /home/puppet/Puppet /etc/PUPPET
+   90  cp /home/puppet/Puppet /etc/PUPPET
+   91  clear
+   92  puppet --version
+   93  puppet --version
+   94  cd /home
+   95  ls
+   96  cd puppet
+   97  ls
+   98  cd Puppet
+   99  ls
+  100  sudo gem install puppet
+  101  sudo gem install puppet
+  102  ls
+  103  /home
+  104  cd /home
+  105  ls
+  106  cd puppet
+  107  ls
+  108  cd Puppet
+  109  ls
+  110  cd puppetserver-2.7.1
+  111  ls
+  112  cd ext
+  113  ls
+  114  cd config
+  115  ls
+  116  cd conf.d
+  117  ls
+  118  cd ..
+  119  ls
+  120  touch puppet.config
+  121  ls
+  122  puppet status
+  123  puppet --help
+  124  puppet --version
+  125  cd ..
+  126  cd ..
+  127  cd ..
+  128  cd ..
+  129  puppet --version
+  130  cd..
+  131  cd..
+  132  cd..
+  133  cd..
+  134  cd..
+  135  cd..
+  136  ls
+  137  cd ..
+  138  sudo
+  139  sudo
+  140  sudo su
+  141  wget https://apt.puppetlabs.com/puppetlabs-release-trusty.db
+  142  wget https://apt.puppetlabs.com/puppetlabs-release-trusty.deb
+  143  ls
+  144  ls -a .deb
+  145  dpkg -i puppetlabs-release-trusty.deb
+  146  sudo dpkg -i puppetlabs-release-trusty.deb
+  147  sudo yum install dpkg
+  148   yum install dpkg
+  149  clear
+  150  vi puppet.conf
+  151  vi puppet.conf
+  152  vi puppet.conf
+  153  vi puppet.conf
+  154  vi puppet.conf
+  155  cd conf.d
+  156  ls
+  157  mkdir environments
+  158  ls
+  159  mkdir modules
+  160  mkdir manifests
+  161  ls
+  162  touch fileserver.conf
+  163  ls
+  164  touch puppet.conf
+  165  ls
+  166  vi puppet.conf
+  167  cd ..
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd config
+  172  ls
+  173  vi puppet.config
+  174  ls
+  175  cd conf.d
+  176  ls
+  177  vi puppet.conf
+  178  vi puppet.conf
+  179  vi webserver.conf
+  180  touch ca.conf
+  181  touch os-settings.conf
+  182  ls
+  183  touch web-routes.conf
+  184  ls
+  185  vi web-routes.conf
+  186  cd ..
+  187  cd ..
+  188  cd services.d
+  189  ls
+  190  cd config
+  191  ls
+  192  cd services.d
+  193  ls
+  194  vi /etc/hostname
+  195  vi /etc/hostname
+  196  sudo vi /etc/hostname
+  197  cd ..
+  198  cd ..
+  199  cd ..
+  200  cd ..
+  201  cd ..
+  202  cd ..
+  203  cd ..
+  204  cd ..
+  205  cd /var
+  206  ls
+  207  cd lib
+  208  ls
+  209  ls
+  210  clear
+  211  git init
+  212  git status
+  213  git config --global user.email "inamdar.surabhi01@gmail.com"
+  214  git config --global user.name "Surabhi Inamdar"
+  215  git commit -m "First Commot"
+  216  git add *
+  217  cd ..
+  218  git commit -m "First Commit"
+  219  git status
+  220  cd /etc
+  221  git status
+  222  clear
+  223  git remote add origin https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  224  git remote -v
+  225  git push origin https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  226* 
+  227  git push -u origin master
+  228  git push -u origin master
+  229  cd ..
+  230  ls
+  231  cd
+  232  ls
+  233  ls -lart
+  234  git pull https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  235  git pull https://github.com/SurabhiInamdar/PuppetFromTarball
+  236  git clone https://github.com/SurabhiInamdar/PuppetFromTarball.git
+  237  ls -lrt
+  238  git status
+  239  cd /etc
+  240  ls
+  241  cd
+  242  history >> ~/PuppetFromTarball/history.log
